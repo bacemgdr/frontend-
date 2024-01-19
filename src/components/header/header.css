@@ -1,0 +1,54 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ccd7db;
+    bottom: 10px;
+    left: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+nav {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+  nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px; /* Adjust padding for better spacing */
+    border-radius: 5px; /* Add rounded corners to the links */
+   
+    transition: background-color 0.3s ease; /* Add a smooth transition on hover */
+  }
+  
+  nav ul li a:hover {
+    color: #000000;
+    background-color: #f2f2f2; /* Change the background color on hover */
+    opacity: 1;
+  font-size: 1.1rem;
+  }
+  .my-icon {
+    color: rgb(143, 15, 15);
+  }
+   button {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+    padding: 5px 5px;;
+   }
+
+   p{
+    font-size: 12px;
+    padding: 2px;
+    
+    color: #333
+   }

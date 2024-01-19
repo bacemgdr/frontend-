@@ -1,0 +1,383 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* 
+########### Register Page ############# */
+
+.register {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+  
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/* body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #4070f4; */
+/* } */ */
+.wrapper{
+  position: relative;
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  padding: 34px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.wrapper h2{
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+.wrapper h2::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 28px;
+  border-radius: 12px;
+  background: #4070f4;
+}
+.wrapper form{
+  margin-top: 30px;
+}
+.wrapper form .input-box{
+  height: 52px;
+  margin: 18px 0;
+}
+form .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.input-box input:focus,
+.input-box input:valid{
+  border-color: #4070f4;
+}
+form .policy{
+  display: flex;
+  align-items: center;
+}
+form h3{
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.input-box.button input{
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: #4070f4;
+  cursor: pointer;
+}
+.input-box.button input:hover{
+  background: #0e4bf1;
+}
+form .text h3{
+ color: #333;
+ width: 100%;
+ text-align: center;
+}
+form .text h3 a{
+  color: #4070f4;
+  text-decoration: none;
+}
+form .text h3 a:hover{
+  text-decoration: underline;
+}
+
+
+/* ############## Login Page ############################### */
+.box{
+  position:center;
+  height:100%;
+  width:100%;
+  font-family:Helvetica;
+  color:#291d3c;
+  background:rgba(191, 185, 185, 0.13);
+  padding:30px 0px;
+}
+.box h1{
+  text-align:center;
+  margin:30px 0;
+  font-size:30px;
+}
+.box input{
+  display:block;
+  width:300px;
+  margin:20px auto;
+  padding:15px;
+  background:rgba(0,0,0,0.2);
+  color:#0b0b0b;
+  border:0;
+  border-radius: 1.1rem;
+}
+.box input:focus,.box input:active,.box button:focus,.box button:active{
+  outline:none;
+}
+.box button{
+  background:#2ecc71;
+  border:0;
+  color:#fff;
+  padding:10px;
+  font-size:20px;
+  width:300px;
+  margin:20px auto;
+  display:block;
+  cursor:pointer;
+  border-radius: 1.1rem;
+}
+.box button:active{
+  background:#27ae60;
+}
+.box p{
+  font-size:14px;
+  text-align:center;
+}
+.box p span{
+  cursor:pointer;
+  color:#666;
+}
+  
+.child-contain{
+  position:center;
+  padding: 8%;
+}
+/*************************************************************************
+******************** Table Css *******************************************
+**************************************************************************/
+
+
+/* Apply styles to the table */
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin:auto;
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  max-width: 500px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+
+
+}
+
+.styled-table thead tr {
+  background-color: #327f87;
+  /* color: #ffffff; */
+  text-align: left;
+}
+
+/* Apply styles to the table header */
+.styled-table th ,
+.styled-table td{
+  padding: 11px 14px;
+}
+ 
+
+.styled-table tbody tr{
+  border-bottom: 1px solid #dddddd;
+}
+
+
+/* Apply alternate background color to table rows */
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879};
+
+  
+/* Apply hover effect to table rows */
+.styled-table tbody tr:hover {
+  background-color: #ebebeb;
+}
+
+
+
+
+
+/* 
+************************************
+******* Card product  Style******************
+************************************ */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.card h5 {
+  font-size: 10px;
+  margin-bottom: 6pxpx;
+}
+
+.card p {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 15px;
+}
+
+.cart-section {
+  margin-top: 32px;
+}
+
+.cart-section h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.cart-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-section li {
+  margin-bottom: 8px;
+}
+
+.payment-section {
+  margin-top: 16px;
+}
+
+.payment-section label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.payment-section select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+}
+
+.confirm-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px; /* Adjust the value to increase or decrease the space between cards */
+ justify-content: center;
+}
+
+.product-list .card {
+  flex: 1 1 300px; /* Adjust the width of each card as needed */
+}
+
+
+.cart-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+
+
+  
+}
+/* *********************************************
+******** Admin Header **************************
+********************************************* */
+.admin-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.admin-container {
+  display: flex;
+  align-items: center;
+}
+
+.admin1 {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.admin1 p {
+  margin-right: 10px;
+}
+
+.admin1 img {
+  width: 30px;
+  height: 40px;
+}
+
+.admin-container div {
+  cursor: pointer;
+}

@@ -1,0 +1,86 @@
+/* Home.css */
+
+/* Main container styles */
+.container {
+  display: flex;
+  flex-direction: row; /* Set flex direction to column for vertical layout */
+}
+
+/* Styles for the product list */
+.product-list {
+  flex: 1; /* Takes up all available vertical space */
+  padding: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.product-card:hover {
+  border: 1px solid var(--blue);
+  background-color: rgba(246, 246, 246);
+  rotate: 1deg;
+  scale: 1.01;
+  cursor: pointer;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styles for the cart */
+.cart-section {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.cart-section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.cart-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-section li {
+  margin-bottom: 10px;
+}
+
+
+
+.payment-section {
+  margin-top: 20px;
+}
+
+.payment-section label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+
+
+.payment-section select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+/* Button styles */
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
