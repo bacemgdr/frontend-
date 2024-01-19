@@ -12,7 +12,7 @@ function ListCustomer() {
 
   const getUsers = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/user');
+      const res = await axios.get('https://ecommecegmc.onrender.com//user');
       if (res.status === 200) {
         setData(res.data);
       }

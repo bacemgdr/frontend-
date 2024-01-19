@@ -22,7 +22,7 @@ const AddProduct = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/product", {
+      const res = await axios.post("https://ecommecegmc.onrender.com/product", {
         productTitle,
         productDescription,
         productPrice,

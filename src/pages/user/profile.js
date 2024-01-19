@@ -11,7 +11,7 @@ const Profile = () => {
     const fetchUsers = async () => {
       console.log('eeeeeeeeeeeeeeeeeeeee',id);
       try {
-        const UsersResponse = await axios.get(`http://localhost:5000/user/${id}`);
+        const UsersResponse = await axios.get(`https://ecommecegmc.onrender.com/user/${id}`);
         setUsersData(UsersResponse.data);
         console.log(UsersResponse.data);
       } catch (error) {

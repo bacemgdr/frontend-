@@ -11,11 +11,11 @@ const User = () => {
     const fetchUserData = async () => {
       try {
         // Fetch user details
-        const userResponse = await axios.get(`http://localhost:5000/user/${id}`);
+        const userResponse = await axios.get(`https://ecommecegmc.onrender.com/user/${id}`);
         setUserData(userResponse.data);
 
         // Fetch user's orders
-        const ordersResponse = await axios.get(`http://localhost:5000/order/buyer/${id}`);
+        const ordersResponse = await axios.get(`https://ecommecegmc.onrender.com/order/buyer/${id}`);
         setUserData(prevData => ({ ...prevData, orders: ordersResponse.data }));
       } catch (error) {
         console.error("Error fetching user data:", error);

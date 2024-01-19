@@ -21,7 +21,7 @@ const AdminRegister = () => {
     }
 
     try {
-      const res = await axios.post("http://localhost:5000/admin/register", {
+      const res = await axios.post("https://ecommecegmc.onrender.com/admin/register", {
         name,
         email,
         password,

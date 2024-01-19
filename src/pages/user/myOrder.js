@@ -10,7 +10,7 @@ const MyOrder = () => {
   useEffect(() => {
     const fetchUserOrders = async () => {
       try {
-        const ordersResponse = await axios.get(`http://localhost:5000/order/buyer/${userId}`);
+        const ordersResponse = await axios.get(`https://ecommecegmc.onrender.com/order/buyer/${userId}`);
         setUserOrders(ordersResponse.data);
       } catch (error) {
         console.error("Error fetching user orders:", error);

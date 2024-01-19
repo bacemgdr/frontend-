@@ -51,7 +51,7 @@ const Home = () => {
 
   const getProduct = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/product");
+      const res = await axios.get("https://ecommecegmc.onrender.com/product");
       if (res.status === 200) {
         setProducts(res.data);
       }
@@ -78,7 +78,7 @@ const Home = () => {
       const userId = localStorage.getItem("userId");
       // const totalPrice = totalPrice();
       // Create an order using the API
-      const res = await axios.post("http://localhost:5000/order", {
+      const res = await axios.post("https://ecommecegmc.onrender.com/order", {
         products: cart.map((item) => item._id),
         payment: selectedPaymentMethod,
         buyer: userId,

@@ -22,7 +22,7 @@ const ListProduct = () => {
   });
 
   const getProduct = async () => {
-    const res = await axios.get('http://localhost:5000/product');
+    const res = await axios.get('https://ecommecegmc.onrender.com/product');
     if (res.status === 200) {
       setData(res.data);
     }
