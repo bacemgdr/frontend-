@@ -10,7 +10,7 @@ function Admin() {
     const fetchData = async () => {
       console.log('eeeee',id);
       try {
-        const response = await axios.get(`https://ecommecegmc.onrender.com/admin/${id}`);
+        const response = await axios.get(`https://backend-zvk7.onrender.com/admin/${id}`);
         setAdminData(response.data);
         console.log(response.data);
         console.log(response.data);

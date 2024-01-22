@@ -22,7 +22,7 @@ const ListProduct = () => {
   });
 
   const getProduct = async () => {
-    const res = await axios.get('https://ecommecegmc.onrender.com/product');
+    const res = await axios.get('https://backend-zvk7.onrender.com/product');
     if (res.status === 200) {
       setData(res.data);
     }
@@ -36,7 +36,7 @@ const ListProduct = () => {
   const handleDelete = async (id) => {
     try {
       if (window.confirm('Are you sure you want to delete this product')) {
-        const res = await axios.delete(`http://localhost:5000/product/${id}`);
+        const res = await axios.delete(`https://backend-zvk7.onrender.com/product/${id}`);
         console.log('aaaaaaaaaaaaaaaaaa', id);
         console.log('aaaaaaaaaaaaaaaaaa', res);
   

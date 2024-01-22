@@ -10,7 +10,7 @@ function OrderDetails() {
   useEffect(() => {
     const fetchOrderDetails = async () => {
       try {
-        const response = await axios.get(`https://ecommecegmc.onrender.com//order/${orderId}`);
+        const response = await axios.get(`https://backend-zvk7.onrender.com/order/${orderId}`);
         setOrder(response.data);
       } catch (error) {
         console.error('Error fetching order details:', error);

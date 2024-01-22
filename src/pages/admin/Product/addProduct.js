@@ -22,7 +22,7 @@ const AddProduct = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://ecommecegmc.onrender.com/product", {
+      const res = await axios.post("https://backend-zvk7.onrender.com/product", {
         productTitle,
         productDescription,
         productPrice,

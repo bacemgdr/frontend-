@@ -13,7 +13,7 @@ const ListOrder = () => {
 
   const getOrders = async () => {
     try {
-      const res = await axios.get("https://ecommecegmc.onrender.com/order/all"); // Update the API endpoint
+      const res = await axios.get("https://backend-zvk7.onrender.com/order/all"); // Update the API endpoint
       if (res.status === 200) {
         setOrders(res.data);
       }

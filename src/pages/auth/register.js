@@ -14,7 +14,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://ecommecegmc.onrender.com/user/register", {
+      const res = await axios.post("https://backend-zvk7.onrender.com/user/register", {
         name,
         email,
         password,
