@@ -3,7 +3,7 @@ import Header from './header';
 
 import Sidebar from '../../../components/sidebar/sidebar';
 
-// Layout Admin 1 
+// Layout Admin 1 last one
 
 const AdminLayout = ({ children }) => {
     return (
