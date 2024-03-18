@@ -3,6 +3,8 @@ import Header from './header';
 
 import Sidebar from '../../../components/sidebar/sidebar';
 
+// Layout Admin
+
 const AdminLayout = ({ children }) => {
     return (
       <div>
